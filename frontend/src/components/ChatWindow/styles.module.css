@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    color: #1a1a1a;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  .messagesContainer {
+    width: 90%;
+    max-width: 1200px;
+    height: 80vh;
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+  }
